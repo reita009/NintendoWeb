@@ -1,9 +1,11 @@
 import * as C from './HomeStyle'
 import { Link } from 'react-router-dom'
+import banner from '../../assets/homeImages/banner.png'
+import image from '../../assets/homeImages/image01.jpg'
 
 export const Home = () =>{
-    const banner ="https://i.pinimg.com/originals/b7/e4/ff/b7e4ff1601b5d9acd4f2b01bf84fef12.png"
-    const image = "https://i.pinimg.com/564x/40/b7/13/40b713a114de0f8e67b89661746bd56a.jpg"
+    //const banner ="https://i.pinimg.com/originals/b7/e4/ff/b7e4ff1601b5d9acd4f2b01bf84fef12.png"
+    //const image = "https://i.pinimg.com/564x/40/b7/13/40b713a114de0f8e67b89661746bd56a.jpg"
     return(
         <>
             <C.Container>

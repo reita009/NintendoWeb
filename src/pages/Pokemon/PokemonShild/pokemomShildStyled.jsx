@@ -5,6 +5,7 @@ export const Container = styled.section`
     height: 100%;
     background-color: #fff7ee;
     padding: 20px;
+    display: block;
 `;
 
 export const Center = styled.div`
@@ -54,3 +55,22 @@ export const Center = styled.div`
     }
     
 `;
+
+export const BackButton = styled.button`
+    padding: 8px;
+    background-color: #e84118;
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    color: antiquewhite;
+    margin-left : 27%;
+    margin-top: 30px;
+    
+    &:hover{
+        background-color: #b83818;
+        cursor: pointer;
+        
+    }
+
+
+    ` 

@@ -1,6 +1,12 @@
 import * as C from './pokemomShildStyled'
+import {useNavigate} from 'react-router-dom'
+
 
 export const PokemonSwolrdShild = () =>{
+    const navigate = useNavigate();
+    const back = () =>{
+        navigate(-1)
+    }
     return(
         <>
             <C.Container>
@@ -24,8 +30,13 @@ export const PokemonSwolrdShild = () =>{
                                    o campeão da região de Galar. Ele fará uma batalha de exibição. 
                                    Você verá que o Charizard dele irá ficar gigante, então o título do jogo aparecerá.</p>
                         </div>
+                        
                 </C.Center>
+
+
+                <C.BackButton onClick={back}>Voltar</C.BackButton>
             </C.Container>
+            
         </>
     )
 }

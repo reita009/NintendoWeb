@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import image02 from '../../assets/homeImages/image02.jpg'
 
 export const Container = styled.section`
     width: 100%;
@@ -115,8 +116,9 @@ export const Center = styled.div`
     .social{
         height: 150px;
         width: 100%;
-        background-image: url("https://i.pinimg.com/564x/c9/13/40/c91340f832096e32b50c593c77508295.jpg");
-        background-repeat:repeat-x;
+        background-image: url(${image02});
+        background-repeat:no-repeat;
+        background-size: cover;
         margin-top: 40px;
     }
 
